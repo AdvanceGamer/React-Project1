@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Poppins';
+}
+
+.nav-bar img{
+    width:110px;
+padding :20px;
+}
+.nav-bar{
+    box-shadow: 0px 3px 5px rgb(232 230 230) ; 
+    height:60px;
+display:flex;
+align-items: center;
+}
+.Hero {
+    margin:40px;
+    /* display: flex;
+    align-items: center;
+flex-direction: column; */
+text-align: center;
+
+}
+.Hero img {
+    width:70vw;
+    margin:0px 0px 20px 0px;
+}
+.Hero h1{
+ text-align: start;
+ margin: 0px 0px 20px 0px;
+}
+.Hero p{
+    text-align: start;
+    margin: 0px 0px 20px 0px;
+}
+.Card{
+    position:relative;
+    width:175px;
+    margin: 10px;
+    
+}
+.Card p{
+    line-height:1.3em;
+}
+.Card div{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: #fff;
+    padding: 3px 7px;
+    border-radius: 2px;
+}
+.Card img{
+    border-radius: 9px;
+    width:175px;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:20px 5px;
+}
